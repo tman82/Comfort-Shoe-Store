@@ -1,0 +1,57 @@
+.member-area-div {
+    padding-top: 40px;
+}
+
+#profile-div {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 70px;
+    padding-left: 3%;
+}
+
+#shoe-name {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#member-p {
+    margin-bottom: 5px;
+}
+
+#life-div {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+#life-div ul li {
+    font-family: 'Abril Fatface', cursive !important;
+    font-weight: 300 !important;
+    display: inline-block;
+    list-style-type: none;
+}
+
+#user-icon {
+    margin-right: 10px;
+}
+
+.product-list {
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 2.8%;
+}
+
+.product-list li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+#special-div {
+    margin-bottom: 70px;
+}
+
+
+
+

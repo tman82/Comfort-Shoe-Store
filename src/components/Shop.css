@@ -1,0 +1,19 @@
+#shop-component {
+    height: 200px;
+    padding-bottom: 1100px;
+    background: white;
+    border-bottom: 1px solid black;
+}
+
+.filter-panel-div {
+    background: white;
+}
+
+
+
+
+/**  Media Queries  **/
+
+@media (min-width: 767px) and (max-width: 1900px) {
+    
+}

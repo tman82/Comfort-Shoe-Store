@@ -1,0 +1,25 @@
+#member-form-div {
+    background: #f7f7f9;
+}
+
+#member-login-div {
+    padding-top: 30px !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.login-header-one {
+    font-family: 'Abril Fatface', cursive !important;
+    padding-top: 100px;
+    font-size: 50px;
+}
+
+#enjoy-header {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#form-div #form-sumbit {
+    background: #1f1f1f !important;
+    border-color: #1f1f1f !important;
+}
+

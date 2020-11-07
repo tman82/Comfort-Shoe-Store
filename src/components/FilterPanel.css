@@ -1,0 +1,102 @@
+
+
+@media only screen and (min-width: 1000px) {
+    /* For desktop: */
+    #filter-panel {width: 17% !important;}
+}
+
+#filter-panel {
+    background: white;
+    padding-top: 20px;
+}
+
+.panel-section {
+    margin-bottom: -10px !important;
+}
+
+.each-shoe-div {
+    margin-bottom: 50px;
+}
+
+.first-p {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.second-p {
+    margin-top: -13px;
+}
+
+.shop-row {
+    width: 100%;
+}
+
+#styles-div {
+    margin-bottom: 50px !important;
+}
+
+#styles-title {
+    font-size: 23px;
+}
+
+.two-styles {
+    margin-bottom: 40px !important;
+}
+
+.form-div {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px 14px 0px;
+    border-bottom: 1px solid #ccc;
+    margin: 0px -15px 50px -15px;
+}
+
+#foo:checked::before,
+input[type="checkbox"] {
+    position:absolute;
+    clip: rect(0,0,0,0);
+    clip: rect(0 0 0 0);
+}
+
+#foo:checked,
+input[type="checkbox"] + label::before {
+    content: url('../assets/images/icons/black.png')
+}
+
+input[type="checkbox"]:checked + label::before {
+    content: url('../assets/images/icons/black.png');
+}
+
+.label-item {
+    font-family: 'Abril Fatface', cursive !important;
+    font-size: 20px;
+    margin: 0px 20px 0px 20px;
+}
+
+.filtered-shoes {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5%;
+}
+
+.basket-p {
+    color: #8f8f8f;
+    max-width: 100px;
+    transition: all 0.2s ease;
+    margin-top: -13px;
+}
+
+.basket-p:hover {
+    color: lightgray;
+    cursor: pointer;
+}
+
+.load-shoe-div {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center !important;
+}
+
+
+
