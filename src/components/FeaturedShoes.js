@@ -12,7 +12,7 @@ export class FeaturedShoes extends Component {
     }
 
     componentDidMount() {
-        axios.get('/shoes')
+        axios.get('http://localhost:4000/shoes')
         .then(res => {
             const photoData = res.data
             this.setState({
