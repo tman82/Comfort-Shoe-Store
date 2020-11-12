@@ -12,7 +12,7 @@ export class FeaturedShoes extends Component {
     }
 
     componentDidMount() {
-        axios.get('http://localhost:4000/shoes')
+        axios.get('mongodb+srv://tre1238:c4t0ugCOi411boy1@trecluster-e058a.mongodb.net/test?retryWrites=true&w=majority')
         .then(res => {
             const photoData = res.data
             this.setState({
