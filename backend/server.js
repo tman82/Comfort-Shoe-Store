@@ -16,7 +16,7 @@ app.use(express.urlencoded({ extended: false }))
 app.use(express.json())
 
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://tre1238:c4t0ugCOi411boy1@trecluster-e058a.mongodb.net/test.shoes?retryWrites=true&w=majority', { useUnifiedTopology: true, useNewUrlParser: true })
+mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://tre1238:c4t0ugCOi411boy1@trecluster-e058a.mongodb.net/test?retryWrites=true&w=majority', { useUnifiedTopology: true, useNewUrlParser: true })
 const connection = mongoose.connection
 
 connection.once('open', () => {
