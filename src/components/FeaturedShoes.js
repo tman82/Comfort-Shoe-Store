@@ -45,7 +45,7 @@ export class FeaturedShoes extends Component {
                 <div className="container feature-container">
                     <div className="row feature-row">
                         <div className="col feature-col">
-                            <h3 id="feature-title">EATURED SHOES</h3>
+                            <h3 id="feature-title">FEATURED SHOE</h3>
                             <div className="featured-shoes-div">
                                     {featuredPhotos}
                             </div>
